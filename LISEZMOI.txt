@@ -1,0 +1,10 @@
+Captain Energy (Edge Energy Manager) - partie IA embarquée (projet VS Code + PlatformIO)
+
+1. Lire guide/guide_ia_embarquee.pdf (installation VS Code, câblage, étapes, démo, articles).
+2. Dans VS Code : Fichier > Ouvrir l'espace de travail > edge_energy_manager.code-workspace
+3. Installer les extensions proposées (PlatformIO IDE, Python, Pylance).
+4. Régler firmware/edge_energy_manager/src/config.h, puis Build et Upload avec PlatformIO.
+
+Matériel : ESP32, 2 INA219, 2 DS18B20, 2 packs 3S 18650, Peltier TEC1-12704 sur relais, LED, LED RGB, buzzer, OLED.
+ATTENTION : src/grid_model.h fourni = modèle de TEST (données synthétiques).
+Remplacez-le avec tools/train_grid_model.py et vos mesures.

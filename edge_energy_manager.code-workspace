@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "Firmware principal",
+      "path": "firmware/edge_energy_manager"
+    },
+    {
+      "name": "Collecte (IA n°1)",
+      "path": "firmware/collect_grid"
+    },
+    {
+      "name": "Outils Python",
+      "path": "tools"
+    },
+    {
+      "name": "Tests",
+      "path": "tests"
+    },
+    {
+      "name": "Guide",
+      "path": "guide"
+    }
+  ],
+  "settings": {
+    "files.encoding": "utf8"
+  },
+  "extensions": {
+    "recommendations": [
+      "platformio.platformio-ide",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-vscode.cpptools",
+      "mechatroner.rainbow-csv"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+# PlatformIO build output
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Test binaries
+tests/test_logic
+tests/test_logic.exe
+tests/*.o
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+desktop.ini
